@@ -21,6 +21,17 @@ console.log(userNumbers);//DEBUG
 
 //Come output il software individua i numeri corretti e quanti, riportandoli.
 
+//Controllare la corrispondenza dei numeri dei due array
+for (let i = 0; i < numbers.length; i++) {
+
+    //Stampare il risultato(N numeri corretti, Trascriverli)
+    if (numbers[i] !== userNumbers[i]) {
+        console.log('Error');
+    } else {
+        console.log(numbers[i]);
+    }
+}
+    
 
 
 
